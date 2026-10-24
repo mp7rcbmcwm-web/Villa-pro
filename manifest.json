@@ -1,0 +1,17 @@
+{
+  "name": "SınavYıldızım - 5. Sınıf Sınav Hazırlık",
+  "short_name": "SınavYıldızım",
+  "description": "5. sınıf 1. dönem konu anlatımları, hızlı test ve yazılı provası.",
+  "lang": "tr-TR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#172b67",
+  "background_color": "#f5f7ff",
+  "icons": [
+    {"src":"icon-180.png","sizes":"180x180","type":"image/png","purpose":"any"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"},
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}
+  ]
+}
