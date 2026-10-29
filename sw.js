@@ -1,4 +1,4 @@
-const CACHE_NAME='sinavyildizim-ai-v5';
+const CACHE_NAME='sinavyildizim-ai-v3-english';
 const APP_SHELL = ['./', './index.html', './manifest.json', './icon.svg', './icon-180.png', './icon-512.png', './SinavYildizim-Logo.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)).then(() => self.skipWaiting()));
